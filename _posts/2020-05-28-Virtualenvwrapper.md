@@ -32,7 +32,7 @@ tags:
 
    *会在当前登录的用户文件夹下创建一个名为Envs目录，然后将创建的虚拟环境安装到目录下，以后所有的虚拟环境都会在这里安装*
 
-   ![](C:\Users\1\Desktop\virtualenvwrapper\Envs_my_env.png)
+   ![VirtualenvWrapper](https://s1.ax1x.com/2020/05/28/teVGjI.png)
 
 2. 切换环境
 
