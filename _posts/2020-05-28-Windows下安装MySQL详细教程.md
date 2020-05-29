@@ -36,19 +36,21 @@ tags:
 
 　 　**3、解决问题**
 
-　　
+　
+
+
 
 > **1、安装包下载。**
 
 下载地址：https://dev.mysql.com/downloads/mysql/
 
-![img](https://images2018.cnblogs.com/blog/1435523/201809/1435523-20180909145941512-769947425.png)
+![img](https://s1.ax1x.com/2020/05/29/tmrdrd.png)
 
  
 
 点击下载之后，可以选择注册Oracle账号，也可以跳过直接下载。
 
-![img](https://images2018.cnblogs.com/blog/1435523/201809/1435523-20180909150321246-422217249.png)
+![img](https://s1.ax1x.com/2020/05/29/tmrY8O.png)
 
 下载完成后，选择一个磁盘内放置并解压。
 
@@ -58,7 +60,7 @@ tags:
 
 **Mysql国内镜像：http://mirrors.sohu.com/mysql/MySQL-8.0/**
 
-**![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200214012521294-416245235.png)**
+**![img](https://s1.ax1x.com/2020/05/29/tmraKH.png)**
 
  
 
@@ -66,7 +68,7 @@ tags:
 
  下载完成之后，找到下载的路径，解压即可！
 
-![img](https://img2020.cnblogs.com/blog/1302991/202003/1302991-20200324133824383-1822063458.png)
+![img](https://s1.ax1x.com/2020/05/29/tmr5aq.md.png)
 
  
 
@@ -82,7 +84,7 @@ tags:
 
 变量值：C:\software
 
-![img](https://img2020.cnblogs.com/blog/1302991/202003/1302991-20200324134052390-1123768702.png)
+![img](https://s1.ax1x.com/2020/05/29/tmrII0.png)
 
  
 
@@ -96,15 +98,15 @@ tags:
 
 进入C:\software\mysql-8.0.19-winx64.zip\mysql-8.0.19-winx64\bin下
 
-![img](https://img2020.cnblogs.com/blog/1302991/202003/1302991-20200324134148878-135182281.png)
+![img](https://s1.ax1x.com/2020/05/29/tmrHRU.png)
 
  
 
- ![img](https://img2020.cnblogs.com/blog/1302991/202003/1302991-20200324134235665-1096276433.png)
+ ![img](https://s1.ax1x.com/2020/05/29/tmrLM4.png)
 
  
 
-![img](https://img2020.cnblogs.com/blog/1302991/202003/1302991-20200324134317258-794967649.png)
+![img](https://s1.ax1x.com/2020/05/29/tmrbzF.png)
 
  
 
@@ -114,7 +116,7 @@ tags:
 
 执行命令：mysqld --initialize-insecure --user=mysql  在C:\software\mysql-8.0.19-winx64.zip\mysql-8.0.19-winx64下和bin同级目录生成data目录
 
- ![img](https://img2020.cnblogs.com/blog/1302991/202003/1302991-20200324134604050-775796161.png)
+ ![img](https://s1.ax1x.com/2020/05/29/tmrOsJ.png)
 
  
 
@@ -124,7 +126,7 @@ tags:
 
 继续执行命令：mysqld -install
 
- ![img](https://img2020.cnblogs.com/blog/1302991/202003/1302991-20200324134614902-1738135026.png)
+ ![img](https://s1.ax1x.com/2020/05/29/tmrXL9.png)
 
  
 
@@ -134,7 +136,7 @@ tags:
 
 继续执行命令：net start MySQL
 
-![img](https://img2020.cnblogs.com/blog/1302991/202003/1302991-20200324134710121-934367759.png)
+![img](https://s1.ax1x.com/2020/05/29/tmsKW8.png)
 
  
 
@@ -148,7 +150,7 @@ tags:
 
 mysql -u root -p
 
-![img](https://img2020.cnblogs.com/blog/1302991/202003/1302991-20200324134859944-327947261.png)
+![img](https://s1.ax1x.com/2020/05/29/tmsQSS.png)
 
  
 
@@ -160,7 +162,7 @@ mysql -u root -p
 
 查询用户密码命令：mysql> select host,user,authentication_string from mysql.user;
 
-![img](https://img2020.cnblogs.com/blog/1302991/202003/1302991-20200324135044540-346081321.png)
+![img](https://s1.ax1x.com/2020/05/29/tmsuJf.png)
 
  
 
@@ -168,7 +170,7 @@ mysql -u root -p
 
 **mysql>** use mysql
 
-![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200213230557388-1983160880.png)
+![img](https://s1.ax1x.com/2020/05/29/tmslQg.png)
 
  
 
@@ -176,7 +178,7 @@ mysql -u root -p
 
 **mysql>** update mysql.user set authentication_string=("123456") where user="root"; 
 
-![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200213230625664-67411486.png)
+![img](https://s1.ax1x.com/2020/05/29/tmseot.png)
 
 Query OK, 1 row affected, 1 warning (0.00 sec)
 
@@ -186,13 +188,13 @@ Rows matched: 1  Changed: 1  Warnings: 1
 
 **mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';**
 
-**![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200214005443070-2007166482.png)**
+**![img](https://s1.ax1x.com/2020/05/29/tmsnFP.png)**
 
 mysql> flush privileges; 
 
 \#作用：相当于保存，执行此命令后，设置才生效，若不执行，还是之前的密码不变
 
-![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200213230706274-1442278651.png)
+![img](https://s1.ax1x.com/2020/05/29/tmsfSO.png)
 
 Query OK, 0 rows affected (0.01 sec) 
 
@@ -202,11 +204,11 @@ mysql> quit
 
 Bye
 
-![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200213230730751-12826274.png)
+![img](https://s1.ax1x.com/2020/05/29/tmshlD.png)
 
  **（9）再次登录**
 
-**![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200214005517779-28637674.png)**
+**![img](https://s1.ax1x.com/2020/05/29/tms5OH.png)**
 
  
 
@@ -216,7 +218,7 @@ Bye
 
 > **3、解决问题**
 
-**![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200214005803305-1153038646.png)**
+**![img](https://s1.ax1x.com/2020/05/29/tms46e.png)**
 
  
 
@@ -236,7 +238,7 @@ Bye
 
 　　**1、打开cmd，切换到mysql的bin目录下，输入命令net stop mysql，停止mysql服务；**
 
-**![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200214010244062-1805443953.png)**
+**![img](https://s1.ax1x.com/2020/05/29/tms46e.png)**
 
  
 
@@ -244,11 +246,11 @@ Bye
 
  　**2、打开mysql的安装目录，找到data文件夹，将其删除！**
 
-**![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200214010329384-1938042208.png)**
+**![img](https://s1.ax1x.com/2020/05/29/tmymnJ.png)**
 
 　　**3、回到cmd命令窗口，输入mysqld -remove**
 
-**![img](https://img2018.cnblogs.com/i-beta/1435523/202002/1435523-20200214010423973-525837391.png)**
+**![img](https://s1.ax1x.com/2020/05/29/tmyVcF.png)**
 
  
 
