@@ -1,13 +1,4 @@
 
-
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
-
-[![Build Status](https://travis-ci.org/qiubaiying/qiubaiying.github.io.svg?branch=master)](https://travis-ci.org/qiubaiying/qiubaiying.github.io)
-[![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-qiubaiying-qiubaiying-github-io-master)
-[![GitHub issues](https://img.shields.io/github/issues/qiubaiying/qiubaiying.github.io.svg?style=flat)](https://github.com/qiubaiying/qiubaiying.github.io/issues)
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
-[![](https://img.shields.io/github/stars/qiubaiying/qiubaiying.github.io.svg?style=social&label=Star)](https://github.com/qiubaiying/qiubaiying.github.io)
-[![](https://img.shields.io/github/forks/qiubaiying/qiubaiying.github.io.svg?style=social&label=Fork)](https://github.com/qiubaiying/qiubaiying.github.io)
 ### [查看博客戳这里 👆](https://libangchui.github.io/)
 
 
@@ -117,7 +108,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 ### Social-media Account
 
-在下面输入的社交账号，没有的添加的不会显示在侧边框中。新加入了[简书](https:/www.jianshu.com)链接, <http://www.jianshu.com/u/e71990ada2fd>
+在下面输入的社交账号，没有的添加的不会显示在侧边框中。新加入了[简书](https:/www.jianshu.com)链接
 
 	# SNS settings
 	RSS: false
@@ -128,8 +119,6 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 	# weibo_username:   username
 	
 	
-
-![](http://ww4.sinaimg.cn/large/006tKfTcgy1fgrgbgf77aj308i02v748.jpg)
 
 ### Friends
 
@@ -142,7 +131,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 friends: [
     {
         title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
+        href: "https://libangchui.github.io/"
     },
     {
         title: "Apple",
@@ -237,8 +226,6 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 但是需要注意的是本模板的标题是**白色**的，所以背景色要设置为**灰色**或者**黑色**，总之深色系就对了。当然你还可以自定义修改字体颜色，总之，用github pages就是可以完全的个性定制自己的博客。
 
 ### SEO Title
-
-我的博客标题是 **“BY Blog”** 但是我想要在搜索的时候显示 **“柏荧的博客 | BY Blog”** ，这个就需要 SEO Title 来定义了。
 
 其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
 
