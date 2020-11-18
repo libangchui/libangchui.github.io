@@ -1,11 +1,11 @@
 ﻿# Site settings
-title: Twenty-Nine
-SEOTitle: TwentyNine-Blog
+title: LiNiaoniao
+SEOTitle: LiNiaoniao-Blog
 header-img: img/post-bg-desk.jpg
 email: 2098957758@qq.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 李棒槌的博客, libangchui, 李棒槌,Twenty-Nine"
-url: "https://libangchui.github.io/"          # your host, for absolute URL
+keyword: "BY, BY Blog, 李尿尿的博客, libangchui, 李尿尿,Twenty-Nine"
+url: "liniaoniao.website"          # your host, for absolute URL https://libangchui.github.io/
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/libangchui/libangchui.github.io" # you code repository
 
@@ -17,13 +17,13 @@ sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in b
 
 
 # SNS settings
-RSS: false
+RSS: ture
 # weibo_username:     qiubaiying
 zhihu_username:     ding-ze-40
 github_username:    libangchui
 # facebook_username:  AreManda
 jianshu_username:   356c98244234
-#twitter_username:   AreManda
+twitter_username:   @li76452352
 
 
 
