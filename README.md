@@ -37,13 +37,13 @@
 
 ```
 # Site settings
-title: BY Blog                    # 你的博客网站标题
-SEOTitle: 柏荧的博客 | BY Blog		# SEO 标题
-description: "Hey"	   	   # 随便说点，描述一下
+title: Li NiaoniaoBlog                   # 你的博客网站标题
+SEOTitle: liniaoniao		# SEO 标题
+description: "何时启，何时终"	   	   # 随便说点，描述一下
 
 # SNS settings      
-github_username: qiubaiying     # 你的github账号
-jianshu_username: e71990ada2fd  # 你的简书ID。
+github_username: libangchui     # 你的github账号
+jianshu_username: xxxxxxxxx  # 你的简书ID。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -60,15 +60,15 @@ yaml 头文件长这样:
 ```
 ---
 layout:     post
-title:      定时器 你真的会使用吗？
-subtitle:   iOS定时器详解
+title:      没好心情
+subtitle:   又挂了？？？
 date:       2016-12-13
-author:     BY
+author:     Liniaoniao
 header-img: img/post-bg-ios9-web.jpg
 catalog: 	 true
 tags:
-    - iOS
-    - 定时器
+    - 今日的没好心情
+    - 记今日述
 ---
 
 ```
@@ -155,7 +155,7 @@ HTML5幻灯片的排版：
 ```
 ---
 layout:     keynote
-iframe:     "http://huangxuan.me/js-module-7day/"
+iframe:     "http://liniaoniao.website/js-module-7day/"
 ---
 ```
 
@@ -183,7 +183,7 @@ iframe在不同的设备中，将会自动的调整大小。保留内边距是�
 ```
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: qiubaiying
+disqus_username: Liniaoniao
 ```
 
 #### Gitalk
