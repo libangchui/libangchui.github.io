@@ -1,5 +1,5 @@
 
-### [查看博客戳这里 👆](https://libangchui.github.io/)
+### [查看博客戳这里 👆](https://www.liniaoniao.website)
 
 
 
@@ -103,7 +103,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 ```
 
 唯一需要注意的是`featured-condition-size`: 如果一个标签的 SIZE，也就是使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐。
- 
+
 内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的.
 
 ### Social-media Account
@@ -117,8 +117,9 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 	facebook_username:  username
 	github_username:    username
 	# weibo_username:   username
-	
-	
+
+
+​	
 
 ### Friends
 
@@ -205,8 +206,8 @@ disqus_username: qiubaiying
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
-ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
+ga_track_id: 'G-64Q90HW6RM'            # 你用Google账号去注册一个就会给你一个这样的id
+ga_domain: Liniaoniao.website			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
 ```
 
 ### Customization
@@ -218,7 +219,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 ### Header Image
 
 博客每页的标题底图是可以自己选的，看看几篇示例post你就知道如何设置了。
-  
+
 标题底图的选取完全是看个人的审美了。每一篇文章可以有不同的底图，你想放什么就放什么，最后宽度要够，大小不要太大，否则加载慢啊。
 
 > 上传的图片最好先压缩，这里推荐 imageOptim 图片压缩软件，让你的博客起飞。
